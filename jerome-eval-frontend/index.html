@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jerome-eval-frontend</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+        <div id="menu-slider"> 
+            <ul class="align-horiz">
+                <li>Louer une voiture</li>
+                <li>Louer un utilitaire</li>
+                <li>Réserver un chauffeur</li>
+                <li>Découvrez nos agences</li>
+                <li>Mon compte</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="container">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <header>
+        
+        <section>
+            
+        <h1>Bienvenue à bord</h1>
+        <h2>Location de voiture 24h/24 et 7j/7</h2>
+        <img src="assets/background.jpg" alt="image voiture de location">
+    </section>
+    <section class="gabarit"> 
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="adresse">Adresse de départ</label>
+            <input type="text" id="adresse" name="adresse">
+            <label for="debut">Début de location</label>
+            <input type="date" id="debut" name="debut">
+            <label for="fin">Fin de location</label>
+            <input type="date" id="fin" name="fin">
+            
+            <button>Valider ma recherche</button>
+        </form>
+    </section>
+    </header>
+
+    <div class="gabarit align-horiz">
+    <main>
+        <section id="resultats" class="align-horiz">
+        <p>8 résultats</p>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="prix"></label>
+            <select id="prix" name="prix">
+                <option value="prix croissant">Prix croissant</option>
+                <option value="prix decroissant">Prix décroissant</option>
+            </select>
+        </form>
+    </section>
+        <article class="align-horiz">
+            <figure>
+            <img src="assets/vehicule1.png" alt="photo Peugeot 208">
+        </figure>
+        <div>
+            <h3>Peugeot 208</h3>
+            <p>Diesel 5 portes, GPS, Autoradio, Forfait 1000km (0,5/km supplémentaire), <br>999€ - Agence de Paris</p>
+            <button>Réserver et Payer</button>
+        </div>
+        </article>
+
+    
+
+        <article class="align-horiz">
+            <figure>
+                <img src="assets/vehicule2.png" alt="">
+            </figure>
+            <div>
+            <h3>Ford Focus</h3>
+            <p>Diesel 5 portes, GPS, Autoradio, Forfait 1000km (0,5/km supplémentaire), <br>999€</p>
+            <button>Réserver et Payer</button>
+        </div>
+        </article>
+
+        <article class="align-horiz">
+            <figure>
+            <img src="assets/vehicule3.png" alt="photo Audi A1">
+        </figure>
+        <div>
+            <h3>Audi A1</h3>
+            <p>Diesel 5 portes, GPS, Autoradio, Forfait 1000km (0,55/km supplémentaire), <br>1100€ - Agence de Paris</p>
+            <button>Réserver et Payer</button>
+        </div>
+        </article>
+
+        <article class="align-horiz">
+            <figure>
+            <img src="assets/vehicule4.png" alt="photo Opel Mokka">
+        </figure>
+        <div>
+            <h3>Opel Mokka</h3>
+            <p>Diesel 5 portes, GPS, Autoradio, Forfait 1000km (0,4/km supplémentaire), <br>1150€ - Agence de Paris</p>
+            <button>Réserver et Payer</button>
+        </div>
+        </article>
+
+    </main>
+    </div>
+    <footer class="gabarit align-horiz">
+        <img src="assets/agence.jpg" alt="photo agence location de Paris">
+        <p>Notre Agence de <b>Paris</b> <br>300 boulevard de Vaugirard, 75015, PARIS <br>Ouvert 7j/7 de 09h à 13h et de 14h à 20h<br> 01 49 78 21 33 <br>contact@vtc.com</p>
+    </footer>
+
+</body>
+</html>
